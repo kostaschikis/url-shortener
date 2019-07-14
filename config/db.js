@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const config = require('config');
 const db = config.get('mongoURI');
 
-// Use of 'async' because mongodb connect returns a promise
+// Use of 'async' because connecting to mongoDB returns a promise
 const connectDB = async () => {
     try {
         await mongoose.connect(db, {
