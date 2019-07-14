@@ -12,3 +12,10 @@ To make a **post request** you can use [Postman](https://www.getpostman.com/) or
 
 * For VScode you can use the **api.http** file located at the **requests folder** and insert a long url.
 ![Example](https://i.imgur.com/gzH8AmY.jpg)
+
+# What I Learned
+* Node.js Concepts
+* Express Framework
+* MongoDB 
+* Use Dependencies
+* How URL Shortener Services Work
