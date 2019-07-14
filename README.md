@@ -10,5 +10,5 @@ Made with **Node.js**, **Express** and **MongoDB**
 ### POST api/url/shorten
 To make a **post request** you can use [Postman](https://www.getpostman.com/) or if you are using [VScode](https://code.visualstudio.com/) you can download the [REST Client Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
-* For VScode you can use the **api.http** file located at the **requests folder** and replace the long url.
+* For VScode you can use the **api.http** file located at the **requests folder** and insert a long url.
 ![Example](https://i.imgur.com/gzH8AmY.jpg)
