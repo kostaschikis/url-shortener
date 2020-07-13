@@ -20,10 +20,12 @@ To make a **post request** you can use [Postman](https://www.getpostman.com/) or
 ### MongoDB
 
 * If you have [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) installed you can pull a MongoDB image and connect the app to your database container.  
-  ```
+
+  ```bash
   docker pull mongo:latest
   docker run -d -p 27017:27017 --name mongodb mongo
   ```  
+
   Then, modify the **default.json** file like this:  
   ``{ "mongoURI": "mongodb://localhost:27017/urlshortener", "baseURL": "http://localhost:5000"}``  
   
