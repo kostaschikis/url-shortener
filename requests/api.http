@@ -2,5 +2,5 @@ POST http://localhost:5000/api/url/shorten
 Content-Type: application/json
 
 {
-    "longUrl": ""
+    "longUrl": "https://www.skroutz.gr/s/10299423/Logitech-M330-Silent-Plus-Black.html"
 }

@@ -13,7 +13,7 @@ router.post('/shorten', async (req, res) => {
     const baseUrl = config.get('baseURL');
 
     // Check base url 
-    if(!validUrl.isUri(baseUrl)) {
+    if (!validUrl.isUri(baseUrl)) {
         return res.status(401).json('Invalid base url');
     }
 
@@ -21,12 +21,12 @@ router.post('/shorten', async (req, res) => {
     const urlCode = shortid.generate();
 
     // Check long url
-    if(validUrl.isUri(longUrl)) {
+    if (validUrl.isUri(longUrl)) {
         try {
             // If the long url exist in the database
             let url = await Url.findOne({ longUrl });
 
-            if(url) {
+            if (url) {
                 // Send the data from DB
                 res.json(url);
             } else {
