@@ -38,3 +38,4 @@ To make a **post request** you can use [Postman](https://www.getpostman.com/) or
 * MongoDB
 * Use Dependencies
 * How URL Shortener Services Work
+* Dockerized Database
